@@ -15,7 +15,7 @@ a.nomor {
 }
 .tengah {
   width: 2258px;
-  height: 932px;
+  height: auto;
   background-color: black;
   color: white;
 }
@@ -44,6 +44,29 @@ a.nomor {
   margin-left: 20px;
 }
 
+.satu {
+  text-transform: uppercase;
+  color: #b6b6b6;
+  font-size: 26px;
+}
+.dua {
+  font-size: 18px;
+  line-height: 140%;
+}
+.kotak {
+  background-color: #fffe55;
+  width: 207px;
+  height: 50px;
+}
+.custom {
+  font-size: 26px;
+  color: #b6b6b6;
+  text-transform: uppercase;
+}
+.custom2 {
+  font-size: 18px;
+  line-height: 140%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
