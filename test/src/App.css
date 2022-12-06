@@ -2,19 +2,20 @@
   text-align: center;
 } */
 .atas {
-  width: 2258px;
+  width: 100%;
   height: 932px;
   background-image: url("./asset/1.png");
 }
 .navbar {
   background: transparent;
+  font-family: Gujarati MT;
 }
 a.nomor {
   width: 201px;
   height: 31px;
 }
 .tengah {
-  width: 2258px;
+  width: 100%;
   height: auto;
   background-color: black;
   color: white;
@@ -57,19 +58,363 @@ a.nomor {
   background-color: #fffe55;
   width: 207px;
   height: 50px;
+  border: none;
+}
+.kotak3 {
+  z-index: 3;
+  position: relative;
+  background-color: #fffe55;
+  width: 207px;
+  height: 50px;
+  border: none;
+  top: -150px;
 }
 .custom {
   font-size: 26px;
   color: #b6b6b6;
   text-transform: uppercase;
+  font-family: "Gujarati MT";
 }
 .custom2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 140%;
+  /* color: #060606; */
 }
+.tengahputih {
+  width: 100%;
+  height: auto;
+}
+.pWorkflow {
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 100%;
+
+  text-transform: uppercase;
+}
+.gb2 {
+  object-fit: contain;
+  width: 600px;
+}
+.pTengah {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #060606;
+}
+.pTengah1 {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 130%;
+  /* or 34px */
+
+  text-transform: uppercase;
+}
+.roww {
+  margin-top: 50px;
+  /* border: solid black 1px; */
+}
+.portofolio {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 100%;
+  /* identical to box height, or 90px */
+
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+.customWeb {
+  margin-top: 50px;
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 130%;
+  /* identical to box height, or 34px */
+
+  text-transform: uppercase;
+
+  color: #b6b6b6;
+
+  opacity: 0.95;
+}
+.hana {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 100%;
+  /* or 58px */
+
+  color: #000000;
+
+  opacity: 0.95;
+}
+.porto {
+  margin-top: 100px;
+}
+.hp {
+  z-index: 3;
+  position: relative;
+  margin-top: -600px;
+}
+.bintang {
+  left: 90px;
+  z-index: 3;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+.desktop {
+  margin-left: 300px;
+  margin-top: 10px;
+  /* position: relative; */
+}
+.bintang2 {
+  position: relative;
+  z-index: 3;
+  object-fit: contain;
+  width: 300px;
+  height: 146px;
+  right: -500px;
+  top: 90px;
+}
+.customapp {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 130%;
+  /* identical to box height, or 34px */
+
+  text-transform: uppercase;
+
+  color: #b6b6b6;
+}
+.cc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.utvi {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 100%;
+}
+.rowe {
+  /* margin-top: 200px; */
+  margin-bottom: 200px;
+}
+.design {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 130%;
+  /* identical to box height, or 34px */
+
+  text-transform: uppercase;
+
+  color: #b6b6b6;
+
+  opacity: 0.95;
+}
+
+.bintang3 {
+  position: relative;
+  margin-top: -350px;
+}
+.hplagi {
+  position: relative;
+  z-index: 3;
+  right: 230px;
+  top: 50px;
+}
+.laptoplagi {
+  position: relative;
+  bottom: 400px;
+  left: 70px;
+}
+.colw {
+  background-image: url("./asset/w.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.colHp {
+  background-image: url("./asset/w.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.home {
+  z-index: 5;
+  width: 375px;
+  position: absolute;
+}
+.checkout {
+  position: relative;
+  z-index: 3;
+  width: 375px;
+  height: 712px;
+  bottom: 100px;
+  left: 270px;
+}
+.bintang4 {
+  position: relative;
+  /* top: -300px; */
+  left: 400px;
+  bottom: 820px;
+}
+.rowDesign {
+  margin-bottom: 100px;
+}
+.open {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 100%;
+}
+.about {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 100%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.tengahHitam {
+  width: 100%;
+  height: auto;
+  background-image: url("./asset/bgHitam.png");
+  background-repeat: no-repeat;
+  color: white;
+}
+.hardianto {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+}
+.yt {
+  position: relative;
+  object-fit: contain;
+  width: 761px;
+  height: 544px;
+  z-index: 3;
+  top: -120px;
+}
+.buton {
+  z-index: 5;
+  position: relative;
+  left: 320px;
+  bottom: 450px;
+}
+.magic {
+  position: relative;
+  z-index: 3;
+  top: -150px;
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 100%;
+  /* identical to box height, or 90px */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.team {
+  width: 100%;
+  height: auto;
+}
+.dalemCard {
+  background-color: #fffe55;
+}
+.director {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+}
+h5 {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 130%;
+  /* identical to box height, or 34px */
+
+  text-transform: uppercase;
+}
+.rowTeam {
+  margin-bottom: 50px;
+}
+.hitamValue {
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+}
+.ourValue {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 139px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.transparent {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  /* identical to box height, or 42px */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #c4c4c4;
+}
+.kotakkotak {
+  z-index: 3;
+  position: relative;
+  bottom: 170px;
+  left: 103px;
+}
+.isi {
+  margin-top: -80px;
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  /* or 42px */
+
+  color: #c4c4c4;
 }
 
 @media (prefers-reduced-motion: no-preference) {
