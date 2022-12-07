@@ -416,6 +416,162 @@ h5 {
 
   color: #c4c4c4;
 }
+.getintouch {
+  width: 100%;
+  height: auto;
+}
+.get {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 100%;
+  /* identical to box height, or 90px */
+
+  text-transform: uppercase;
+}
+.pnomor {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  /* identical to box height, or 48px */
+
+  text-transform: uppercase;
+}
+.socialmedia {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  /* identical to box height, or 21px */
+
+  text-transform: uppercase;
+}
+.formm {
+  width: 80%;
+  height: 80%;
+  background-color: #000000;
+  margin-top: 40px;
+  box-sizing: border-box;
+  padding: 70px;
+}
+.form {
+  left: 100px;
+  top: 50px;
+}
+label {
+  color: rgba(255, 255, 255, 0.5);
+}
+form input {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #ffff;
+  color: #fff;
+  font-size: 20px;
+}
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #fffe55;
+}
+.nomormiring {
+  font-family: "Lato";
+  font-style: normal;
+  /* font-weight: 400; */
+  font-size: 17px;
+  /* line-height: 120%; */
+  /*or31px*/
+  text-transform: uppercase;
+  color: #000000;
+  transform: rotate(-90deg);
+  /* padding-top: 200px; */
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+.rowfooter {
+  margin-top: 100px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.footer1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+}
+.footer4 {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+}
+.footer2 {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  text-transform: uppercase;
+
+  color: #1b1b1b;
+}
+.footer3 {
+  font-family: "Gujarati MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  /* text-transform: uppercase; */
+
+  color: #1b1b1b;
+}
+
+.formfooter label {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  /* identical to box height, or 21px */
+
+  text-transform: uppercase;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+.formfooter input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #000000;
+}
+.footer5 {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  /* or 21px */
+}
+span {
+  text-decoration: underline;
+}
+
+.ending {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

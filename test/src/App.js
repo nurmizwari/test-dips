@@ -30,6 +30,7 @@ import social from "./asset/Social.png";
 import kotakkotak from "./asset/kotakkotak.png";
 import kotakpolos from "./asset/kotakpolos.png";
 import gariss from "./asset/gariss.png";
+import brand from "./asset/brand.png";
 
 import "./App.css";
 
@@ -804,6 +805,129 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div className="container-fluid getintouch">
+        <div className="container">
+          <div className="row">
+            <div className="col-6 mt-4">
+              <h2 className="get">Get in Touch</h2>
+              <p className="hardianto mb-5">
+                Looking to talk to us directly, or planning an office visit? As
+                Digital Agency, Dipstrategy start by understanding your business
+                need to comes up with any solutions. That's why it is important
+                for us to hear your story. When it come to listening to your
+                story, we are all ears.
+              </p>
+              <p className="hardianto mb-2">
+                Gd. Titan lt.3, Jl. Slamet Riyadi no.7, Jakarta 13150 -
+                Indonesia{" "}
+              </p>
+              <p className="pnomor">P. +62 21 858 3944</p>
+              <p className="pnomor">info@dipstrategy.co.id </p>
+              <div className="row mt-5 justify-content-start">
+                <div className="col-2">
+                  <p className="socialmedia">facebook</p>
+                </div>
+                <div className="col-2">
+                  <p className="socialmedia">twitter</p>
+                </div>
+                <div className="col-2">
+                  <p className="socialmedia">instagram</p>
+                </div>
+                <div className="col-2">
+                  <p className="socialmedia">linkedin</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-6">
+              <div className="formm">
+                <form>
+                  <label>NAME</label>
+                  <br />
+                  <input type="text" />
+                  <br />
+                  <label>E-MAIL</label>
+                  <br />
+                  <input type="password" />
+                  <br />
+                  <label>MESSAGE</label>
+                  <br />
+                  <input type="text" />
+                  <br />
+                  <button type="submit" className="kotak mt-4 mb-5">
+                    SUBMIT
+                    <img src={panahKecil} alt="p" className="ms-4" />
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div className="container">
+          <div className="row rowfooter justify-content-center align-items-start">
+            <div className="col">
+              <img src={brand} alt="brand" />
+            </div>
+            <div className="col d-flex align-self-center">
+              <p className="nomormiring">P. +62 21 858 3944</p>
+            </div>
+            <div className="col">
+              <p className="footer1">Quick Links</p>
+              <p className="footer2">Services</p>
+              <p className="footer2">work flow</p>
+              <p className="footer2">portofolio</p>
+              <p className="footer2">about us</p>
+              <p className="footer2">our value</p>
+            </div>
+            <div className="col">
+              <p className="footer1">follow</p>
+              <p className="footer3">facebook</p>
+              <p className="footer3">twitter</p>
+              <p className="footer3">instagram</p>
+              <p className="footer3">about us</p>
+              <p className="footer3">linkedin</p>
+            </div>
+            <div className="col-4">
+              <p className="footer4">Sign up to our newsletter</p>
+              <div>
+                <form className="formfooter">
+                  <label>E-MAIL</label>
+                  <br />
+                  <input type="email" />
+                </form>
+                <p className="footer5">
+                  This site is protected by reCAPTHCHA and the{" "}
+                  <span>Google Privacy Policy</span> and{" "}
+                  <span>Terms of Service apply.</span>
+                </p>
+              </div>
+            </div>
+            <div className="col align-self-center mb-5 ">
+              <img src={panah} alt="img" className="" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-2"></div>
+            <div className="col-10">
+              <hr className="garisgaris" />
+            </div>
+          </div>
+          <div className="row ">
+            <div className="col-2"></div>
+            <div className="col-8">
+              <p className="ending">
+                Copyright 2022 Digital Presence Strategy - Dipstrategy - Digital
+                Agency Jakarta
+              </p>
+            </div>
+            <div className="col-2 text-end">
+              <p className="ending">Privacy Policy</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
