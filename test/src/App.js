@@ -1,3 +1,5 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import logo from "./asset/Group.png";
 import d from "./asset/Vector.png";
 import panah from "./asset/panah.png";
@@ -33,8 +35,12 @@ import gariss from "./asset/gariss.png";
 import brand from "./asset/brand.png";
 
 import "./App.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="App">
       <div className="container-fluid atas">
@@ -121,7 +127,6 @@ function App() {
           </div>
         </div>
       </div>
-
       <div className="container-fluid tengah">
         <div className="container  ">
           <div className="row rowo ">
@@ -213,6 +218,8 @@ function App() {
                 src={gb}
                 alt="gb"
                 style={{ width: "522px", height: "393px" }}
+                data-aos="fade-right"
+                data-aos-duration="3000"
               />
             </div>
             <div className="col d-flex flex-row justify-content-end align-items-start ">
@@ -225,6 +232,8 @@ function App() {
                   objectFit: "contain",
                 }}
                 className="me-3"
+                data-aos="fade-left"
+                data-aos-duration="2000"
               />
               <img
                 src={gb3}
@@ -234,6 +243,8 @@ function App() {
                   height: "391px",
                   objectFit: "contain",
                 }}
+                data-aos="fade-left"
+                data-aos-duration="3000"
               />
             </div>
             <div className="row justify-content-end">
@@ -397,11 +408,16 @@ function App() {
           </div>
         </div>
       </div>
-
       <div className="container tengahputih">
         <div className="row">
           <div className="col">
-            <p className="pWorkflow">Workflow</p>
+            <p
+              className="pWorkflow"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            >
+              Workflow
+            </p>
           </div>
           <div className="row">
             <div className="col">
@@ -437,7 +453,13 @@ function App() {
 
         <div className="row">
           <div className="col">
-            <img src={bg2} alt="bg" className="gb2" />
+            <img
+              src={bg2}
+              alt="bg"
+              className="gb2"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            />
           </div>
           <div className="col">
             <p className="pTengah">
@@ -469,7 +491,13 @@ function App() {
 
         <div className="row roww">
           <div className="col">
-            <p className="portofolio">Portfolio</p>
+            <p
+              className="portofolio"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            >
+              Portfolio
+            </p>
           </div>
           <div className="col d-flex ">
             <p className="pTengah" style={{ marginTop: "100px" }}>
@@ -481,11 +509,15 @@ function App() {
               alt="kiri"
               style={{ width: "49px", objectFit: "contain" }}
               className="me-3"
+              data-aos="fade-right"
+              data-aos-duration="3000"
             />
             <img
               src={kanan}
               alt="kanan"
               style={{ width: "49px", objectFit: "contain" }}
+              data-aos="fade-right"
+              data-aos-duration="3000"
             />
           </div>
         </div>
@@ -508,9 +540,27 @@ function App() {
             </div>
           </div>
           <div className="col mt-5">
-            <img src={bintang} alt="bintang" className="bintang" />
-            <img src={laptop} alt="laptop" className="ms-5" />
-            <img src={hp} alt="hp" className="hp" />
+            <img
+              src={bintang}
+              alt="bintang"
+              className="bintang"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            />
+            <img
+              src={laptop}
+              alt="laptop"
+              className="ms-5"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            />
+            <img
+              src={hp}
+              alt="hp"
+              className="hp"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+            />
           </div>
         </div>
 
@@ -520,18 +570,24 @@ function App() {
               src={hp2}
               alt="hp2"
               style={{ width: "451px", height: "906px", position: "absolute" }}
+              data-aos="fade-right"
+              data-aos-duration="3000"
             />
             <img
               src={bintang}
               alt="bintang2"
               // style={{ width: "451px", height: "906px" }}
               className="bintang2"
+              data-aos="fade-right"
+              data-aos-duration="3000"
             />
             <img
               src={desktop}
               alt="desktop"
               // style={{ width: "451px", height: "906px" }}
               className="desktop"
+              // data-aos="fade-right"
+              // data-aos-duration="3000"
             />
           </div>
 
@@ -577,29 +633,63 @@ function App() {
             </div>
           </div>
           <div className="col colw">
-            <img src={bintang} alt="bintang" className="bintang3" />
+            <img
+              src={bintang}
+              alt="bintang"
+              className="bintang3"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+            />
             <img
               src={hplagi}
               alt="gplagi"
               style={{ width: "250.92px" }}
               className="hplagi"
+              data-aos="fade-left"
+              data-aos-duration="3000"
             />
             <img
               src={laptoplagi}
               alt="laptoplagi"
               style={{ width: "818.99px", height: "404.81px" }}
               className="laptoplagi"
+              data-aos="fade-left"
+              data-aos-duration="3000"
             />
           </div>
         </div>
 
         <div className="row">
           <div className="col colHp">
-            <img src={home} alt="home" className="home" />
-            <img src={checkout} alt="checkout" className="checkout" />
-            <img src={bintang} alt="bintang" className="bintang4" />
+            <img
+              src={home}
+              alt="home"
+              className="home"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            />
+            <img
+              src={checkout}
+              alt="checkout"
+              className="checkout"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            />
+            <img
+              src={bintang}
+              alt="bintang"
+              className="bintang4"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            />
             <div className="mt-5">
-              <h2 className="about">ABOUT US</h2>
+              <h2
+                className="about"
+                data-aos="fade-right"
+                data-aos-duration="3000"
+              >
+                ABOUT US
+              </h2>
             </div>
           </div>
           <div className="col d-flex flex-column justify-content-center">
@@ -621,7 +711,6 @@ function App() {
           </div>
         </div>
       </div>
-
       <div className="container-fluid tengahHitam">
         <div className="container">
           <div className="row">
@@ -647,13 +736,33 @@ function App() {
               </div>
             </div>
             <div className="col">
-              <img src={yt} alt="yt" className="yt" />
-              <img src={button} alt="buton" className="buton" />
+              <img
+                src={yt}
+                alt="yt"
+                className="yt"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              />
+              <img
+                src={button}
+                alt="buton"
+                className="buton"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              />
             </div>
           </div>
           <div className="row">
             <div className="col-8">
-              <h2 className="magic">Our magic team</h2>
+              <h2
+                className="magic"
+                data-aos="fade-right"
+                data-aos-duration="3000"
+              >
+                Our magic team
+              </h2>
             </div>
             <div className="col">
               <div>
@@ -670,7 +779,6 @@ function App() {
           </div>
         </div>
       </div>
-
       <div className="container team">
         <div className="row">
           <div className="col-10">
@@ -687,7 +795,7 @@ function App() {
         </div>
         <div className="row rowTeam">
           <div className="col mb-5">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="3000">
               <img src={putih1} alt="Avatar" style={{ width: "100%" }} />
               <div class="container dalemCard">
                 <h5 className="mt-3">SAM FLEX</h5>
@@ -697,7 +805,7 @@ function App() {
             </div>
           </div>
           <div className="col">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="3000">
               <img src={putihcw} alt="Avatar" style={{ width: "100%" }} />
               <div class="container dalemCard">
                 <h5 className="mt-3">Kate larson</h5>
@@ -707,7 +815,7 @@ function App() {
             </div>
           </div>
           <div className="col">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="3000">
               <img src={cwo} alt="Avatar" style={{ width: "100%" }} />
               <div class="container-fluid d-flex justify-content-between align-items-center  dalemCard">
                 <h5 className="mt-3">bobby fish</h5>
@@ -722,7 +830,7 @@ function App() {
             </div>
           </div>
           <div className="col">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="3000">
               <img src={cwe} alt="Avatar" style={{ width: "100%" }} />
               <div class="container dalemCard">
                 <h5 className="mt-3">amanda james</h5>
@@ -733,12 +841,17 @@ function App() {
           </div>
         </div>
       </div>
-
       <div className="container-fluid hitamValue">
         <div className="container">
           <div className="row">
             <div className="col">
-              <p className="ourValue">Our Values</p>
+              <p
+                className="ourValue"
+                data-aos="fade-right"
+                data-aos-duration="3000"
+              >
+                Our Values
+              </p>
             </div>
           </div>
           <div className="row mt-4">
@@ -748,12 +861,16 @@ function App() {
                 src={kotakpolos}
                 alt="kotakpols"
                 style={{ width: "400px", height: "222px" }}
+                data-aos="zoom-in-down"
+                data-aos-duration="3000"
               />
               <img
                 src={kotakkotak}
                 alt="kotakpols"
                 style={{ width: "196px", height: "118px" }}
                 className="kotakkotak"
+                data-aos="zoom-in-down"
+                data-aos-duration="3000"
               />
               <p className="isi mb-5">
                 The goal of Wolven D.O.O. is to get as close as possible to the
@@ -769,12 +886,16 @@ function App() {
                 src={kotakpolos}
                 alt="kotakpols"
                 style={{ width: "400px", height: "222px" }}
+                data-aos="zoom-in-down"
+                data-aos-duration="3000"
               />
               <img
                 src={kotakkotak}
                 alt="kotakpols"
                 style={{ width: "196px", height: "118px" }}
                 className="kotakkotak"
+                data-aos="zoom-in-down"
+                data-aos-duration="3000"
               />
               <p className="isi">
                 We are your competent partner for web development and everything
@@ -788,12 +909,15 @@ function App() {
                 src={kotakpolos}
                 alt="kotakpols"
                 style={{ width: "400px", height: "222px" }}
+                data-aos="zoom-in-down"
               />
               <img
                 src={gariss}
                 alt="kotakpols"
                 style={{ width: "196px", height: "118px" }}
                 className="kotakkotak"
+                data-aos="zoom-in-down"
+                data-aos-duration="3000"
               />
               <p className="isi">
                 Just being good at something is one side. But for truly perfect
@@ -805,12 +929,17 @@ function App() {
           </div>
         </div>
       </div>
-
       <div className="container-fluid getintouch">
         <div className="container">
           <div className="row">
             <div className="col-6 mt-4">
-              <h2 className="get">Get in Touch</h2>
+              <h2
+                className="get"
+                data-aos="fade-right"
+                data-aos-duration="3000"
+              >
+                Get in Touch
+              </h2>
               <p className="hardianto mb-5">
                 Looking to talk to us directly, or planning an office visit? As
                 Digital Agency, Dipstrategy start by understanding your business
@@ -840,7 +969,11 @@ function App() {
               </div>
             </div>
             <div className="col-6">
-              <div className="formm">
+              <div
+                className="formm"
+                data-aos="fade-left"
+                data-aos-duration="3000"
+              >
                 <form>
                   <label>NAME</label>
                   <br />
